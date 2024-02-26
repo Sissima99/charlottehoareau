@@ -1195,7 +1195,7 @@ ul.post-comment li p {
 .site-button {
   padding: 10px 50px;
   font-size: 12px;
-  background: none;
+  background: gray;
   border: 2px solid;
   border-radius: 50px;
   -moz-border-radius: 50px;
