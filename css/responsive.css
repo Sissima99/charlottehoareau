@@ -1,0 +1,17 @@
+@media (min-width: 275px) and (max-width: 767px) {
+  #testimonial-carousel .carousel-indicators li {
+    width: 25px;
+    height: 35px;
+    margin: 5px;
+  }
+
+  #testimonial-carousel .carousel-indicators .active {
+    width: 42px;
+    height: 42px;
+  }
+
+  #testimonial-carousel .carousel-indicators {
+    bottom: -28%;
+  }
+
+}
