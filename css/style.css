@@ -836,9 +836,10 @@ input:-webkit-autofill {
   vertical-align: middle;
 }
 
-@media screen and (max-width: 767px) { /* Adjust for phone mode */
+@media screen and (max-width: 767px) {
+  /* Adjust for phone mode */
   .out {
-      margin-right: 200px;
+    margin-right: 200px;
   }
 }
 .typed-cursor {
@@ -1467,32 +1468,30 @@ a.site-button {
 }
 iframe {
   width: 98%;
-  height: calc(100vh - 300px); 
+  height: calc(100vh - 300px);
   border: none;
 }
 
-// freelance page 
+// freelance page
 
 .styled-text1 {
-
 }
 
 .styled-link {
   display: inline-block;
-  padding: 10px 20px; 
-  color: #36d1c4; 
-  border-radius: 5px; 
+  padding: 10px 20px;
+  color: #36d1c4;
+  border-radius: 5px;
   text-align: justify;
   font-size: 16px;
   font-weight: bold;
-  text-decoration: none; 
-  transition: background-color 0.3s ease; 
+  text-decoration: none;
+  transition: background-color 0.3s ease;
 }
 
 .styled-link:hover {
   background-color: #a0eecc; /* Darker background color on hover */
 }
-
 
 //
 .grid-gallery {
@@ -1513,7 +1512,6 @@ iframe {
 }
 
 .grid-gallery .grid-item img {
-
   transition: transform 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
@@ -1541,4 +1539,12 @@ iframe {
     grid-column: unset;
     grid-row: unset;
   }
+}
+
+.fa.fa-twitters {
+  font-family: sans-serif;
+}
+.fa.fa-twitters::before {
+  content: "𝕏";
+  font-size: 1.2em;
 }
