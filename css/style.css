@@ -73,6 +73,10 @@ footer p {
 .site-button:focus {
   outline: 0;
 }
+.site-buttonn:focus {
+  outline: 0;
+}
+
 
 .nav-menu li a:focus {
   color: #a0eecc;
@@ -1014,6 +1018,10 @@ input:-webkit-autofill {
   margin: 0 auto 60px;
   display: table;
 }
+.blog .site-buttonn {
+  margin: 0 auto 60px;
+  display: table;
+}
 
 .blog-single h1 {
   font-size: 22px;
@@ -1187,6 +1195,11 @@ ul.post-comment li p {
   margin-top: 30px;
   display: block;
 }
+.contact-form .site-buttonn {
+  margin: auto;
+  margin-top: 30px;
+  display: block;
+}
 
 .button {
   text-align: center;
@@ -1201,6 +1214,26 @@ ul.post-comment li p {
   border-radius: 50px;
   -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
+  transition: all ease 0.3s;
+}
+.site-buttonn {
+  padding: 10px 50px;
+  font-size: 12px;
+  background: transparent;
+  border: 2px solid;
+  border-radius: 50px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  transition: all ease 0.3s;
+}
+a.site-buttonn {
+  border: 2px solid #f6318c;
+  color: #000;
+}
+
+.site-buttonn:hover {
+  background: #f6318c;
+  color: #fff;
   transition: all ease 0.3s;
 }
 
@@ -1547,4 +1580,59 @@ iframe {
 .fa.fa-twitters::before {
   content: "𝕏";
   font-size: 1.2em;
+}
+
+.languagepicker {
+	background-color: transparent;
+	display: inline-block;
+	padding: 0;
+	height: 40px;
+	overflow: hidden;
+	transition: all .3s ease;
+  margin-bottom: "30px"
+}
+
+.languagepicker:hover {
+	/* don't forget the 1px border */
+	height: 81px;
+}
+
+.languagepicker a{
+	color: #000;
+	text-decoration: none;
+}
+
+.languagepicker li {
+	display: block;
+	background: transparent;
+	
+	padding: 0px 20px;
+	line-height: 40px;
+	border-top: 1px solid #EEE;
+}
+
+.languagepicker li:hover{
+	background-color: #EEE;
+}
+
+.languagepicker a:first-child li {
+	border: none;
+	background: transparent;
+}
+
+.languagepicker li img {
+	margin-right: 5px;
+}
+
+.roundborders {
+	border-radius: 5px;
+}
+
+.large:hover {
+	/* 
+	don't forget the 1px border!
+	The first language is 40px heigh, 
+	the others are 41px
+	*/
+	height: 245px;
 }

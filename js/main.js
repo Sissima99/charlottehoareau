@@ -133,6 +133,18 @@ $(document).ready(function () {
     backDelay: 2000,
   });
 
+  $(".elements").typed({
+    strings: [
+      "Charlotte Hoareau",
+      "rédactrice web freelance",
+      "stratégiste de contenu",
+      "nomade digital",
+    ],
+    typeSpeed: 15,
+    loop: true,
+    backDelay: 2000,
+  });
+
   // MAGNIFIC POPUP FOR PORTFOLIO PAGE
   $(".link").magnificPopup({
     type: "image",
@@ -229,3 +241,5 @@ lightbox.option({
   wrapAround: true,
   disableScrolling: true,
 });
+
+    
